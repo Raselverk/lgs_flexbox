@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar {
+   
+    display: flex;
+    justify-content:flex-end;
+    background-color: #827272;
+}
+
+
+.navbar a {
+   
+    color: white;
+    padding: 14px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+     border:1px solid white;
+    border-radius: 15%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.side {
+    flex:30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.side img{
+  
+  height: 200px;
+}
+
+.headerimg img{
+   float: left;
+}
+.subscribe{
+    clear: both;
+    float: none;
+     display: flex;
+     padding: 12px;
+    
+}
+.side .subscribe img{
+    width: 30px;
+    height: 30px;
+}
+ul{
+  list-style-image: url('img/templatemo_list.png');
+}
+.orange{
+    color: orange;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+a{
+    color: red;
+}
+.topics{
+margin: 40px 20%;
+
+}
+.footer {
+    width: 100%;
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
